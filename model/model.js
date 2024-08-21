@@ -9,7 +9,8 @@ const userSchema = new Schema({
     PhoneNumber : {type:'number',required:[true,'Phonenumber is a required feild']},
     Password : {type:'string',required : [true,'Password is a required feild']},
     JwtToken : String,
-    Address : String
+    Address : String,
+    ProfilePic : String
 },
 {
     timestamps: true
